@@ -4,4 +4,4 @@ Willkommen bei LomiLab! Besuchen Sie unsere Webseite unter: [https://lominub44.g
 
 ## Kontaktiere uns
 
-You would like to get in touch with us? Join our discord [coming soon](coming soon!!!!)!
+You would like to get in touch with us? Join our discord [coming soon](https://comingsoon.com)!
