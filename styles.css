@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap'); /* Import custom Font */
+
 /* Global Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -11,6 +13,22 @@ body {
     padding: 20px;
 	animation: fadeIn 1s ease-in-out; /* Apply fadeIn animation with a duration of 1 second */
 }
+
+/* Title */
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  background-image: linear-gradient(to right, #0000ff, #ff69b4, #0000ff);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.sub-title {
+    text-align: center;
+    font-size: 70%;
+    margin-top: 0px;
+}
+
 
 /* Header */
 header {
@@ -23,22 +41,6 @@ header h1 {
     margin: 0;
     padding: 0;
     text-align: center;
-}
-
-nav ul {
-    list-style: none;
-    text-align: center;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
 }
 
 /* Buttons */
@@ -55,7 +57,7 @@ nav ul li a {
 }
 
 .btn:hover {
-    background-color: #0056b3;
+    background-image: linear-gradient(to right, #0000ff, #ff69b4, #0000ff);
 	transform: scale(1.1); /* Apply scale transformation on hover */
 }
 
