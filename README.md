@@ -1,7 +1,7 @@
 # LomiLab
 
-Willkommen bei LomiLab! Besuchen Sie unsere Webseite unter: [https://lominub44.github.io/lomilab/](https://lominub44.github.io/lomilab/)
+Willkommen bei LomiLab! Besuchen Sie unsere Webseite unter: [https://lominub44.github.io/lomilab/](https://lominub44.github.io/lomihub/)
 
 ## Kontaktiere uns
 
-Sie möchten mit uns in Kontakt treten? Senden Sie uns eine E-Mail an: [info@lomilab.com](mailto:info@lomilab.com).
+You would like to get in touch with us? Join our discord [coming soon](https://comingsoon.com)!
