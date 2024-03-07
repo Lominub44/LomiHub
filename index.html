@@ -7,9 +7,24 @@
     <link rel="stylesheet" href="styles.css"> <!-- Stylesheet for layout -->
 </head>
 
+<!-- using https://github.com/bufferhead-code/nightowl?tab=readme-ov-file -->
+<script
+    type="module"
+    src="https://cdn.jsdelivr.net/npm/@bufferhead/nightowl@0.0.14/dist/nightowl.js"
+></script>
+<script type="module">
+    import { createNightowl } from '@bufferhead/nightowl'
+
+    createNightowl({
+        defaultMode: 'light',
+        toggleButtonMode: 'currentState'
+    })
+</script>
+
+
 <body>
-    <header>
-        <h1 class="title">Welcome to LomiHub</h1>
+    <header class="nightowl-daylight">
+        <h1 class="title ">Welcome to LomiHub</h1>
 		<p class="sub-title">(The website of LomiLab)</p>
     </header>
     
@@ -39,13 +54,13 @@
                 <h3>Web-CLI Example</h3>
                 <p>this is a example for a funny command-line-interface in your browser</p>
                 <p>Technologies used: JavaScript, HTML, CSS.</p>
-                <a href="https://lominub44.github.io/web-CLI-example/" class="btn">Learn more</a>
+                <a href="https://lominub44.github.io/web-CLI-example/" class="btn nightowl-daylight">Learn more</a>
             </div>
            <div class="project">
 				<h3>In work???</h3>
 				<p>We are working on it!</p>
 				<p>Technologies used: Python.</p>
-				<a href="#" class="btn" onclick="showAlert()">Learn More</a>
+				<a href="#" class="btn nightowl-daylight" onclick="showAlert()">Learn More</a>
 				<script>
 					function showAlert() {
 						alert('This project is currently in development. Stay tuned for updates!');
@@ -56,7 +71,7 @@
 
         </div>
     </section>
-    <footer>
+    <footer class="nightowl-daylight">
         <div class="container">
             <p>&copy; 2024 LomiLab. All rights reserved.</p>
 			<a href="https://dsc.gg/lomilab/" class="btn">Join our Discord</a>
