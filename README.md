@@ -8,4 +8,4 @@ You would like to get in touch with us? Join our discord [coming soon](https://c
 
 ## Credits
 
-we use [nightowl]([https://lominub44.github.io/LomiHub/](https://lominub44.github.io/LomiHub/))
+we use [nightowl](https://github.com/bufferhead-code/nightowl) for the dark-mode
